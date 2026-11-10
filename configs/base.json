@@ -1,0 +1,22 @@
+{
+  "dataset": {
+    "k": 10,
+    "d": 32,
+    "n_per_class": 300,
+    "noise": 0.9,
+    "seed": 0
+  },
+  "train": {
+    "epochs": 60,
+    "batch": 256,
+    "lr": 0.05,
+    "lam_aux": 0.5,
+    "lam_gram": 0.5
+  },
+  "eval": {
+    "noise_levels": [0.5, 1.0, 1.5, 2.0],
+    "drop_rates": [0.2, 0.4, 0.6]
+  },
+  "methods": ["late_fusion", "gate_only", "gram_only", "ours_full"],
+  "seeds": [0, 1, 2]
+}

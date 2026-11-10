@@ -1,0 +1,28 @@
+# ---------- 数据与产物：绝不提交 ----------
+data/
+feats/
+runs/
+checkpoints/
+*.npz
+*.pth
+*.pt
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ipynb_checkpoints/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- 日志 ----------
+*.log
+
+# 保留空目录占位
+!results/.gitkeep
+!docs/figures/.gitkeep
